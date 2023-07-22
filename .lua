@@ -2807,7 +2807,7 @@ function library:Load(options)
         Color = Color3.fromRGB(255, 255, 255),
         ZIndex = 1000,
         Filled = true,
-        Size = UDim2.new(1, 1, 1, 1),,
+        Size = UDim2.new(1, 1, 1, 1),
     })
 
     self.cursor = cursor
