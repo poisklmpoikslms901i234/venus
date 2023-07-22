@@ -2805,8 +2805,7 @@ function library:Load(options)
     local cursor = utility.create("Triangle", {
         Thickness = 6,
         Color = Color3.fromRGB(255, 255, 255),
-        ZIndex = 1000,
-        Size = 13,
+        ZIndex = 65,
     })
 
     self.cursor = cursor
