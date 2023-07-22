@@ -2806,6 +2806,8 @@ function library:Load(options)
         Thickness = 6,
         Color = Color3.fromRGB(255, 255, 255),
         ZIndex = 65,
+        Filled = true,
+        Size = 24,
     })
 
     self.cursor = cursor
